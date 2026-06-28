@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
+    name: "Sarah Mitchell",
+    role: "Marathon Runner",
     avatar: "/professional-woman-scientist.png",
     content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
+      "VoltTabs are a game changer on race day. One strip mid-run and I get clean energy with zero stomach issues.",
   },
   {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Marcus Lee",
+    role: "Software Engineer",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "I dropped my afternoon coffee for these. No jitters, no crash — just focus when the deadlines hit.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Anna Park",
+    role: "Frequent Traveler",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "They fit in my passport pocket and beat overpriced airport energy drinks. The Mango flavor is unreal.",
   },
 ]
 
@@ -30,9 +30,13 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <div className="inline-flex items-center gap-2 mb-4">
+            <span className="text-4xl font-bold text-primary font-orbitron">4.9</span>
+            <span className="text-yellow-400 text-2xl tracking-tight">★★★★★</span>
+          </div>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Loved by Thousands</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Rated 4.9/5 by runners, builders and travelers who run on VoltTabs
           </p>
         </div>
 
